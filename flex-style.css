@@ -1,0 +1,98 @@
+*{
+    box-sizing:border-box;
+}
+.site-header{
+    background: url(https://download.unsplash.com/photo-1434210330765-8a00109fc773);
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+    color:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: flex-start;
+    padding:;
+
+}
+
+.site-header nav{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.site-header h1{
+    
+    
+}
+
+.site-header li{
+    display:inline-block;
+    margin:15px;
+    color:white;
+
+}
+
+.site-header h2{
+    font-size:56px;
+
+}
+
+.main-content,
+.gallery-section {
+    padding:3% 10%;
+    display:flex;
+    
+}
+
+.main-content article{
+    width:70%;
+
+}
+
+.main-content aside{
+    width:30%;
+    background:#eee;
+    padding:2%;
+    text-align:center;
+}
+
+.gallery-section{
+    background-color:rgba(50,5,15, 0.5);
+
+}
+
+
+.gallery-section ul{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.gallery-section li{
+    display:block;
+    
+    width:33.3333%;
+}
+
+.gallery-section img{
+    width:100%;
+    display:block;
+}
+
+footer{
+    display:flex;
+    display:-webkit-flex;
+    -webkit-justify-content:space-around;;
+    justify-content:space-around;
+    padding:10%;
+    
+}
+
+footer li{
+    display:inline-block;
+    
+}

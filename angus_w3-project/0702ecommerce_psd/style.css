@@ -1,0 +1,848 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.sizing{
+    width:70%;
+    margin:0 auto;
+}
+
+/*header*/
+.headerWelcome{
+    font-size:10px;
+    color:#373737;
+    text-transform:uppercase;
+    border-bottom: 1px solid lightgrey;
+    position:;
+}
+
+.headerRight{
+    float:right;
+    margin-left:20px;
+
+}
+
+/*logo*/
+
+.logo{
+    color:#373737;
+    height:170px;
+
+}
+
+
+.searchBar,.likesCart{
+    float:left;
+    width:25%;
+    margin:0;
+    padding:0;
+}
+
+.likesCart{
+    text-align:right;
+}
+
+.searchBar i{
+    transform: scaleX(-1);
+}
+.searchBar input{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-botton:1px solid #373737;
+    width:40%;
+    
+}
+
+.logoWrap{
+    width:50%;
+    text-align:center;
+    float:left;
+}
+
+.logo img{
+    
+}
+
+
+.dropdown{
+    font-size:;
+    margin-left:0;
+}
+
+.headerWelcome a{
+    color:red;
+    text-decoration:none;
+}
+
+.toolbarList{
+    width:100%;
+    text-align:center;
+    position:;
+    
+}
+
+.toolbarList ul{
+    padding:0;
+}
+
+
+.toolbarList ul .toolbarItem{
+    display:inline-block;
+    letter-spacing:1px;
+    position:;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.grey{
+    color:#979797;
+}
+
+.toolbarList ul li a{
+    text-transform:uppercase;
+    text-decoration:none;
+    border-bottom:1px solid #fff;
+    color:#373737;
+    transition:0.25s ease-in;
+}
+
+.toolbarList ul li a:hover{
+    color:#FF5B64;
+    border-bottom:1px solid #FF5B64;
+    transition:0.5s ease;
+}
+
+
+
+.hoverList{
+    position:absolute;
+    background:black;
+    color:white;
+    opacity:0;
+    visibility: hidden;
+    transition: opacity 0.5s linear;
+    width:120px;
+    text-align:right;
+}
+
+
+
+.portfolioHover:hover .portfolioList{
+    display:block;
+    opacity:0.6;
+    background:black;
+    color:white;
+    transition: visibility 0.5s linear, opacity 0.5s linear;
+    transition-delay: 0.5s, 0;
+    text-align:right;
+    visibility: inherit;
+}
+
+.shortcodesHover:hover .shortcodesList{
+    display:block;
+    opacity:0.6;
+    transition: opacity 0.5s linear;
+    background:black;
+    color:white;
+    visibility: inherit;
+}
+
+.hoverList li{
+    display:block;
+    right:;
+    text-align:left;
+}
+
+/*Title Flip*/
+
+.titleFlip{
+    height:700px;
+    overflow:hidden;
+    text-align:center;
+}
+
+.flipItem img{
+    float:left;
+    width:100%;
+}
+
+.buttonFlip{
+    position:;
+}
+
+.buttonFlip label{
+    padding:5px;
+    margin:5px;
+    height:5px;
+    font-size:0.5px;
+    width:5px;
+    background:#AAA;
+    color:#AAA;
+    transition:0.5s ease;
+}
+
+#label3{
+    background:#FF5555;
+    transition: 0.5s ease;
+}
+
+#label1:hover ~ #label3{
+    background:#aaa;
+    
+}
+
+#label2:hover ~ #label3{
+    background:#aaa;
+    
+}
+
+#label2:hover{
+    background:#FF5555;
+}
+
+#label2:hover ~ .imageFlip2{
+    background:#FF5555;
+    display:block;
+    opacity:0.5;
+    transition:0.5s ease-in-out;
+}
+
+#label1:hover{
+    background:#FF5555;
+}
+
+
+#label1:hover ~ .imageFlip1{
+    background:#FF5555;
+    display:block;
+    opacity:1;
+    transition:0.5s ease;
+}
+
+
+.buttonFlip input{
+    display:none;
+}
+
+.imageFlip1, .imageFlip2{
+    opacity:0;
+    display:none;
+    transition:0.5s ease;
+}
+
+.imageFlip3{
+    opacity:1;
+    transition: 0.5s ease;    
+}
+
+/*tiles*/
+
+.specialTiles{
+    padding-top:50px;
+    height:400px;
+    width:700px;
+    margin:auto;
+}
+
+.squareTile{
+    display:inline-block;
+    width:150px;
+    height:150px;
+
+    margin:5px;
+    overflow:hidden;
+}
+
+.squareTile img{
+    width:150px;
+    float:;
+}
+
+.Tile1{
+    text-align:right;
+}
+
+.Tile1 div div{
+    margin-right:100%;
+}
+
+.Tile3{
+    text-align:center;
+    border:1px solid red;
+}
+
+.smallest{
+    font-size:8px;
+    color:#aaa;
+}
+
+.small{
+    font-size:14px;
+    color:#aaa;
+    text-transform:uppercase;
+}
+
+.big{
+    font-size:18px;
+    color:black;
+    text-transform:uppercase;
+}
+
+.tileLine{
+    width:50px;
+    border-bottom:1px solid #aaa;
+}
+
+
+.rectTile{
+    display:inline-block;
+    width:150px;
+    height:310px;
+    border:1px solid #aaa;
+    margin:5px;
+    
+}
+.topTiles,.bottomTiles{
+    display:block;
+    position:absolute;
+}
+
+/*product nav*/
+
+.navProducts{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.navProducts label{
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:lightgrey;
+    padding-bottom:10px;
+    margin-right:2%;
+    margin-left:2%;
+    transition:1s;
+    border-bottom:1px solid white;
+
+}
+
+.navProducts input{
+    display:none;
+
+}
+
+.navProducts input[type="radio"]:checked + label{
+    color:black;
+    border-bottom:1px solid red;
+    transition:1s;
+
+}
+
+.navProducts span{
+    color:red;
+
+}
+
+.scrollButton{
+    width:30px;
+    height:30px;
+    color:#AAA;
+    border:1px solid #AAA;
+    background:white;
+    transition:0.25s ease;
+}
+
+.scrollButton:hover{
+    background:#FF5555;
+    color:white;
+}
+
+#scrollBack{
+    float:left;
+}
+#scrollForward{
+    float:right;
+}
+
+.scrollButton{
+    margin-top:140px;
+}
+
+button{
+    border:none;
+    background:none;
+    float:;
+    position:;
+    display:inline-block;
+    letter-spacing:1px;
+}
+
+body{
+    font-family:"Montserrat" sans-serif;
+}
+
+
+
+
+.product .prodImg{
+    width:180px;
+}
+
+.product{
+    text-align:center;
+    position:;
+    display:inline-block;;
+    visibility:;
+    left:;
+    /* display: inline-block;    */  
+}
+
+.allProducts{
+    width:100%;
+    margin:0 auto;
+    display: block;
+    font-size: 0;
+    text-align: center;
+}
+
+.priceProduct{
+
+    color:#FF535C;
+}
+
+.priceProduct:before{
+    content:"$";
+}
+
+.hidden{
+    display:none;
+}
+
+
+.allProducts div div{
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+
+.product{
+    position:relative
+}
+
+.actionBox:hover{
+    opacity:1;
+    transition:0.25s ease;
+}
+
+.actionBox{
+    z-index:1;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:white;
+    padding:2px 1px;
+    text-align:center;
+    opacity:0;
+    transition:0.25s ease;
+}
+
+.productScroll i{
+    font-size:22px;
+    padding:2px 1px;
+    color:#AAA;
+}
+
+.allProducts button{
+    display:block;
+    width:40px;
+    height:40px;
+    padding:5px;
+    margin:2px;
+    border:1px solid lightgrey;
+    background:white;
+    transition:1s ease-in;
+}
+
+.allProducts button:hover{
+    background:#FD5854;
+    transition:0.5s ease-in;
+    color:white;
+}
+
+
+/*review*/
+
+.reviewFlip{
+    height:500px;
+    letter-spacing:1px;
+}
+
+.reviewFlip img{
+    width:100%;
+    position:;
+    float:left;
+}
+
+
+.reviewPic img{
+    height:50px;
+    width:50px;
+    border:0px solid black;
+    border-radius:50%;
+    opacity:1;
+}
+
+.reviewPieces{
+    display:inline-block;
+}
+
+.reviewPic{
+    width:10%;
+}
+
+.reviewContent{
+    width:89%;
+}
+
+
+.reviewLine{
+    width:100px;
+    border-bottom:1px solid #aaa;
+}
+.reviewQuote{
+    font-size:10px;
+}
+
+.reviewName{
+    text-transform:uppercase;
+}
+
+.reviewTitle{
+    font-size:14px;
+}
+
+.reviewOne{
+    width:600px;
+    margin:0 auto;
+    padding:0 10px;
+    position:absolute;
+    margin-top:150px;
+    left:0;
+    right:0;
+    color:white;
+    background:black;
+    opacity:0.7;
+}
+
+
+/*Blog*/
+
+.blogSection{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.blogSection h2{
+    text-transform:uppercase;
+    font-size:16px;
+
+    margin-bottom:50px;
+}
+
+.blogLine{
+    width:100px;
+    border-bottom:1px solid #aaa;
+    margin:auto;
+}
+
+.blogLeft{
+    margin-top:140px;
+    float:left;
+    border: 1px solid #aaa;
+    color:#aaa;
+    transition:0.5s ease-in;
+}
+
+.blogLeft:hover{
+    color:white;
+    background:#FF5555;
+}
+
+.blogRight{
+    margin-top:140px;
+    float:right;
+    border:1px solid #aaa;
+    color:#aaa;
+    transition:0.5s ease-in;
+}
+
+.blogRight:hover{
+    color:white;
+    background:#FF5555;
+}
+
+.blogPosts button:hover{}
+
+.readMore{
+    font-size:10px;
+}
+
+.blogOne{
+    float:left;
+    width:45%;
+}
+
+.blogTwo{
+    float:right;
+    width:45%;
+}
+
+.blogPosts{
+    width:80%;
+    margin:auto;
+}
+
+.blogTile{
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin-top:50px;
+    padding:0;
+    overflow:hidden;
+    text-align:left;
+}
+
+.blogTitle{
+    font-size:20px;
+}
+
+
+.blogTile img{
+    height:200px;
+    padding-right:20px;
+    
+}
+
+.contentTile h3{
+    color:#aaa;
+}
+
+.blogTitle {
+    color:black;
+}
+
+
+/*company logos*/
+
+.logoImages img{
+    display:inline-block;
+    margin:0 2%;
+    width:10%;
+}
+
+.companyLogos{
+    text-align:center;
+    margin-top:50px;
+}
+
+.logoImages{
+    width:100%;
+    margin:0 auto;             
+}
+
+.sectionLine{
+    width:400px;
+    border-bottom:1px solid #aaa;
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+
+/*support buttons*/
+
+.supportSection{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.supportFrame1{
+    display:inline-block;
+    margin:4%;
+    padding:20px 0;
+    width:300px;
+    height:70px;
+    border:1px solid #aaa;
+    position:relative;
+    
+}
+
+.supportButton{
+    positioning:absolute;
+    border:1px solid #aaa;
+    font-size:14px;
+    right:100px;
+    width:300px;
+    height:70px;
+    margin: -15px;
+    margin-left:-25px;
+    text-transform:uppercase;
+    
+}
+
+
+/*footer*/
+
+footer{
+    font-family:"Raleway", sans-serif;
+}
+
+.helpFooter a:hover, .aboutFooter a:hover, .moreinfoFooter a:hover{
+                                               color:#FF535C;
+                                           }
+
+.bold{
+    color:#FF535C;
+}
+
+.footerTop{
+    margin:0 auto;
+  
+}
+
+.newsletter .subscribe{
+    text-transform:uppercase;
+    border:1px solid #aaa;
+    transition:0.5s ease;
+}
+
+.subscribe:hover{
+    color:white;
+    background:#FF535C;
+}
+
+
+.footer1{
+    background:#F8F8F8;
+    
+}
+
+.footerTop h3, .footerTop div{
+    display:inline-block;
+    text-transform:uppercase;
+}
+
+.footerTop h3, .contact{
+    width:27%;
+}
+
+.contact{
+    margin:-30px;
+}
+
+.newsletter{
+    width: 50%;
+   
+}
+
+.contactButton i{
+    display:inline-block;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    background:#aaa;
+    position:relative;
+    padding:0 13px;
+    padding-top: 10px;
+}
+
+.facebook:hover{
+    background:blue;
+    transition:0.5s ease-in;
+    color:white;
+}
+
+.twitter:hover{
+    background:lightblue;
+    transition:0.5s ease-in;
+}
+
+.gmail:hover{
+    background:red;
+    transition:0.5s ease-in;
+    color:white;
+}
+
+.tumblr:hover{
+    background:blue;
+    transition:0.5s ease-in;
+    color:white;
+}
+
+.pinterest:hover{
+    background:pink;
+    transition:0.5s ease-in;
+
+}
+
+.bottomFooter{
+    display:inline-block;
+    text-decoration:none;
+    width:24.5%;
+    padding:0;
+    margin:0;
+    vertical-align:text-top;
+}
+
+.bottomFooter li{
+    display:block;
+    text-decoration:none;
+    color:#535353;
+    padding:0;
+    margin:0;
+    margin-bottom:2px;
+    font-size:;
+}
+
+.bottomFooter{
+    margin-top:18px;
+    font-size:12px;
+}
+
+.bottomFooter li a{
+    display:block;
+    text-decoration:none;
+    color:#535353;
+    margin:0;
+    padding:0;               
+}
+
+.privacyRow{
+    text-align:center;
+}
+
+.privacyRow a:hover{
+    color:#FF535C;
+}
+
+.footer2 li {
+    display:inline-block;
+    margin:1%;
+}
+
+.footer2 a{
+    text-decoration:none;
+    color:#535353;
+    margin:;
+}
+
+.copyrightRow{
+    text-align:center;
+}
+
+.copyrightRow a{
+    color:#FF535C;
+    text-transform:uppercase;
+}

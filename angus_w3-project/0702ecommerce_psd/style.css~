@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+}
+
+.sizing{
+    width:70%;
+    margin:0 auto;
+}
+
+/*header*/
+.headerWelcome{
+    font-size:10px;
+    color:lightgrey;
+    text-transform:uppercase;
+    border-bottom: 1px solid lightgrey;
+    position:;
+}
+
+.headerRight{
+    float:right;
+    margin-left:20px;
+
+}
+
+.dropdown{
+    font-size:22px;
+    margin-left:0;
+}
+
+.headerWelcome a{
+    color:red;
+    text-decoration:none;
+}
+
+.productScroll{
+    position:;
+
+}
+
+button{
+    border:none;
+    background:none;
+    float:;
+    position:;
+    display:inline-block;
+}
+
+body{
+    font-family:"Montserrat" sans-serif;
+}
+
+div{
+    float:;
+}
+
+li{
+    display:inline-block;
+
+}
+
+.product .prodImg{
+    width:100px;
+}
+
+.allProducts{
+    display:flex;
+}
+
+.newProducts, .featProducts, .specProducts{
+    position:;
+    display:flex;
+    visibility:;
+    left:;
+}
+
+.hidden{
+    visibility:hidden;
+}

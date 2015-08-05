@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+</head>
+<body>
+
+	<div class="flexContainer">
+    <div class="flexItem"></div>
+    <div class="flexItem"></div>
+    <div class="flexItem"></div>
+    <div class="flexItem"></div>
+    <div class="flexItem"></div>
+	</div>
+	
+
+	<style>
+		.flexContainer {
+	    border: #333 solid 2px;
+	    height: 300px;
+		}
+
+		.flexItem {
+	    width: 50px;
+	    height: 50px;
+	    background: red;
+	    border: #333 solid 1px;
+	    margin: 5px;
+		}
+	</style>
+
+</body>
+</html>

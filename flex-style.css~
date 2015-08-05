@@ -1,0 +1,11 @@
+*{
+    box-sizing:border-box;
+}
+.site-header{
+    background: url(https://download.unsplash.com/photo-1434210330765-8a00109fc773);
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+
+}
+		   
